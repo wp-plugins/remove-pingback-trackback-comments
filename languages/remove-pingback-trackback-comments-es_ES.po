@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Remove Pingback-Trackback Comments\n"
+"POT-Creation-Date: 2015-04-28 12:47+0100\n"
+"PO-Revision-Date: 2015-04-28 12:47+0100\n"
+"Last-Translator: Pau Iglesias <pauiglesias@gmail.com>\n"
+"Language-Team: Pau Iglesias, Blogestudio <pauiglesias@blogestudio.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: s;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../remove-pingback-trackback-comments.php:139
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: ../remove-pingback-trackback-comments.php:195
+msgid "Pingbacks and Trackbacks overview"
+msgstr "Resumen de Pingbacks y Trackbacks en el sistema"
+
+#: ../remove-pingback-trackback-comments.php:201
+#, php-format
+msgid ""
+"Total comments: <b style=\"color: %s\">%s pingbacks and trackbaks</b>, and "
+"%s user comments."
+msgstr ""
+"Total comentarios: <b style=\"color: %s\">%s pingbacks y trackbaks</b>, y %s "
+"comentarios de usuarios."
+
+#: ../remove-pingback-trackback-comments.php:203
+#, php-format
+msgid ""
+"Total allowing pingbacks and trackbacks: <b style=\"color: %s\">%s posts</b> "
+"with ping status in mode <b>open</b>"
+msgstr ""
+"Total permitiendo pingbacks y trackbacks: <b style=\"color: %s\">%s posts</"
+"b> con ping status en modo <b>open</b>"
+
+#: ../remove-pingback-trackback-comments.php:205
+#, php-format
+msgid ""
+"Default value for new posts: <i>default ping status</i> is <b style=\"color: "
+"%s\">%s</b>"
+msgstr ""
+"Valor por defecto para nuevos posts: <i>default ping status</i> es <b style="
+"\"color: %s\">%s</b>"
+
+#: ../remove-pingback-trackback-comments.php:215
+msgid "Removing Pingbacks and Trackbacks"
+msgstr "Eliminación de Pingbacks y Trackbacks"
+
+#: ../remove-pingback-trackback-comments.php:223
+msgid "Update was done successfully."
+msgstr "La actualización se ha realizado correctamente."
+
+#: ../remove-pingback-trackback-comments.php:225
+msgid "Now you need to update the internal comments counter for each post."
+msgstr ""
+"Ahora es necesario actualizar el contador interno de comentarios de cada "
+"post."
+
+#: ../remove-pingback-trackback-comments.php:227
+#, php-format
+msgid ""
+"You can do this by installing and running the <a href=\"%s\" target=\"_blank"
+"\"><b>Update Comments Count</b></a> plugin."
+msgstr ""
+"Puedes hacerlo instalando y ejecutando el plugin <a href=\"%s\" target="
+"\"_blank\"><b>Update Comments Count</b></a>."
+
+#: ../remove-pingback-trackback-comments.php:235
+msgid "By submitting the form the following updates will be performed:"
+msgstr "Al enviar el formulario se realizarán las siguientes actualizaciones:"
+
+#: ../remove-pingback-trackback-comments.php:238
+msgid ""
+"Change to state <b>closed</b> for all posts with the <i>ping status</i> in "
+"mode <b>open</b>."
+msgstr ""
+"Cambio de estado a <b>closed</b> para todos los posts con el valor <i>ping "
+"status</i> en modo <b>open</b>."
+
+#: ../remove-pingback-trackback-comments.php:239
+msgid ""
+"Changes in <i>Settings &gt; Discussion</i> the value of <i>default ping "
+"status</i> to <b>closed</b>, avoiding future <b>pingbacks and trackbacks</b> "
+"for new posts."
+msgstr ""
+"Cambio en <i>Ajustes &gt; Comentarios</i> del valor predeterminado "
+"<i>default ping status</i> a <b>closed</b>, de forma que permita <b>evitar "
+"futuros pingbacks y trackbacks</b> en nuevos posts."
+
+#: ../remove-pingback-trackback-comments.php:240
+msgid ""
+"Delete records in comments table for any comment with value type "
+"<b>pingback</b> or <b>trackback</b>."
+msgstr ""
+"Eliminación de registros en la tabla de comentarios cuyo tipo de comentario "
+"tenga el valor <b>pingback</b> o <b>trackback</b>."
+
+#: ../remove-pingback-trackback-comments.php:241
+msgid ""
+"Delete orphan records from comments <i>meta</i> table without post ID "
+"equivalent in posts table."
+msgstr ""
+"Eliminación de registros huérfanos en la tabla <i>meta</i> de comentarios "
+"sin post ID equivalente en la tabla de posts."
+
+#: ../remove-pingback-trackback-comments.php:244
+#, php-format
+msgid "Updates will be affect the following Post Types: <b>%s</b>"
+msgstr "La actualización afectará a los siguientes Post Types:  <b>%s</b>"
+
+#: ../remove-pingback-trackback-comments.php:246
+#, php-format
+msgid ""
+"It`s recommended a <strong>database backup</strong> of tables <code>%s</"
+"code>, <code>%s</code> and <code>%s</code>"
+msgstr ""
+"Se recomienda hacer una <strong>copia de seguridad</strong> de las tablas "
+"<code>%s</code>, <code>%s</code> y <code>%s</code>"
+
+#: ../remove-pingback-trackback-comments.php:248
+msgid "Perform changes"
+msgstr "Realizar cambios"
+
+#: ../remove-pingback-trackback-comments.php:252
+msgid ""
+"After submitting this form is recommended to update the comments counter of "
+"each individual post."
+msgstr ""
+"Después de enviar el formulario se recomienda actualizar el contador de "
+"comentarios de cada post individual."
+
+#: ../remove-pingback-trackback-comments.php:254
+#, php-format
+msgid ""
+"You can update these counters installing and running the plugin <a href=\"%s"
+"\" target=\"_blank\"><b>Update Comments Count</b></a>."
+msgstr ""
+"Podrás actualizar estos contadores instalando y ejecutando el plugin <a href="
+"\"%s\" target=\"_blank\"><b>Update Comments Count</b></a>."
+
+#: ../remove-pingback-trackback-comments.php:256
+msgid ""
+"Changes will be update in database, before you should have a backup, "
+"continue?"
+msgstr ""
+"Se actualizarán los cambios en la base de datos, es necesario hace una copia "
+"de seguridad, ¿continuar?"
